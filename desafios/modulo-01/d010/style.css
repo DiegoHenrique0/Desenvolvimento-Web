@@ -11,11 +11,11 @@
 
 /** Váriaveis**/
 :root{
-    --cor0: #26FF00;
-    --cor1: #3BFF7A;
-    --cor2: #28EB3C;
-    --cor3: #69E80C;
-    --cor4: #BDFF25;
+    --cor0: #3ECC08;
+    --cor1: #7aca55b7;
+    --cor2: #6F3625;
+    --cor3: #2E3336;
+    --cor4: #322219bd;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
@@ -34,7 +34,7 @@ body{
 }
 
 header{
-    background-color: var(--cor2);
+    background-color: var(--cor4);
 }
 
 header h1{
