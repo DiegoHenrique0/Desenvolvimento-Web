@@ -21,3 +21,31 @@
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
 }
+
+/** Seletor de todos elementos **/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor1);
+}
+
+header{
+    background-color: var(--cor2);
+}
+
+header h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+
+nav{
+    background-color: var(--cor);
+}
+
+main h1{
+    font-family: var(--fonte-android);
+}
