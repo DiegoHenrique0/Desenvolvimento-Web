@@ -16,6 +16,7 @@
     --cor2: #00E03B;
     --cor3: #7c7c7cc7;
     --cor4: #0ced9ed5;
+    --cor5: rgb(49, 48, 48);
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
@@ -100,11 +101,31 @@ main h1{
 main p{
     margin: 15px 0px;
     text-align: justify;
+    text-indent: 30px;
+    line-height: 1.8em;
+}
+
+main strong{
+    color: #118a24be;
+    font-weight: bold;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor5);
+    background-color: var(--cor2);
+    padding: 2px 5px;
+}
+
+main a:hover{
+    text-decoration: underline;
 }
 
 main img{
     width: 100%;
 }
+
 
 main img.pequena{
     max-width: 350px;
