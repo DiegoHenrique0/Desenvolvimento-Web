@@ -46,6 +46,28 @@ nav{
     background-color: var(--cor0);
 }
 
+main{
+    background-color: blanchedalmond;
+    margin: auto;
+    margin-bottom: 25px;
+    max-width: 1000px;
+    min-width: 100px;
+    padding: 20px;
+    box-shadow: 4px 5px 16px rgba(0, 0, 0, 0.692);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
 main h1{
     font-family: var(--fonte-android);
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    width: 40%;
+    display: block;
+    margin: auto;
 }
