@@ -96,6 +96,13 @@ main{
 
 main h1{
     font-family: var(--fonte-android);
+    text-align: center;
+}
+
+main h2{
+    font-size: 1.3;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 10px;
 }
 
 main p{
