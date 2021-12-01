@@ -11,7 +11,7 @@
 
 /** Váriaveis**/
 :root{
-    --cor0: #0ced57cc;
+    --cor0: #0b6428cc;
     --cor1: #1eee3dbe;
     --cor2: #00E03B;
     --cor3: #55F70C;
@@ -34,16 +34,31 @@ body{
 }
 
 header{
-    background-color: var(--cor2);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 25px;
 }
 
 header h1{
     color: white;
     font-family: var(--fonte-destaque);
+    font-size: 2.5em;
+    padding-bottom: 21px;
+}
+
+header p{
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
 }
 
 nav{
-    background-color: var(--cor0);
+    background-color: var(--cor2);
 }
 
 main{
