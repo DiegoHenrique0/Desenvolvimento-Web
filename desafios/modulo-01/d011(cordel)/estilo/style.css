@@ -36,8 +36,14 @@ a:hover{
     text-decoration: underline;
 }
 
+.normal{
+    background-color: white;
+    
+}
 
-
+.imagem{
+    background-color: slategray;
+}
 footer{
     background-color: black;
     color: white;
